@@ -1,3 +1,5 @@
+/* Aula de Flexbox */
+
 * {
     box-sizing: border-box;
 }
@@ -28,8 +30,116 @@ header {
     padding-right: 20px;
 }
 
+main {
+    padding-bottom: 110px;
+}
+
 .banner {
     background-image: url(../img/banner.png);
     height: 235px;
 }
 
+/* Aula de Form - Especifico para "trabalhe-conosco.html" */
+
+.contato {
+    display: flex;
+}
+
+.contact-heading {
+    font-size: 40px;
+    font-weight: 600;
+    color: #575757;
+}
+
+form, article {
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    color: #9b9b9b;
+}
+
+input, select {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: solid 1px #9b9b9b;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.curriculo {
+    display: flex;
+    margin: 22px 0;
+}
+
+button#upload {
+    background-color: #C4C4C4;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: none;
+    width: 118px;
+    padding: 0 10px;
+    margin-left: 20px;
+}
+
+button#submit {
+    background-color: #C2185B;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    padding: 5px 10px;
+}
+
+/* Atividade - Parte 1 */
+
+.encontre-seu-estilo h2 {
+    text-align: center;
+}
+
+.featured {
+    display: flex;
+    justify-content: center;
+}
+
+.trinta-off {
+    background-color: #C2185B;
+}
+
+.trinta-off h2 {
+    text-align: center;
+}
+
+.promo {
+    display: flex;
+    justify-content: center;
+}
+
+.detalhes-sandalia {
+    display: flex;
+    justify-content: center;
+}
+
+.detalhes-sandalia > .coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    background-color: #C2185B;
+}
+
+footer {
+    background-color: #C2185B;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
