@@ -77,6 +77,10 @@ label {
     margin-bottom: 5px;
 }
 
+textarea {
+  height: 80px;
+}
+
 .curriculo {
     display: flex;
     margin: 22px 0;
@@ -103,21 +107,37 @@ button#submit {
 
 /* Atividade - Parte 1 */
 
-.encontre-seu-estilo h2 {
+section.encontre-seu-estilo h2 {
     text-align: center;
+    font-weight: 800;
+    font-size: 60px;
+    padding: 20px 0;
 }
 
 .featured {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
 }
 
-.trinta-off {
+img#photoshoot-1 {
+  padding-right: 55px;
+}
+
+section.trinta-off {
     background-color: #C2185B;
+    height: 660px;
 }
 
 .trinta-off h2 {
-    text-align: center;
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: 800;
+  font-size: 44px;
+  text-transform: uppercase;
+  padding: 60px 0;
+  margin: 0;
 }
 
 .promo {
@@ -125,21 +145,60 @@ button#submit {
     justify-content: center;
 }
 
-.detalhes-sandalia {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 110px;
+.detalhes-1, .detalhes-2, .detalhes-3, .detalhes-4 {
+  display: flex;
+  flex-direction: column;
 }
 
-.detalhes-sandalia > .coluna {
+.detalhes-1, .detalhes-2, .detalhes-3 {
+  padding-right: 18px;
+}
+
+.descricao {
+  background-color: #FFFFFF;
+  padding: 15px 0 30px 10px;
+}
+
+.descricao p {
+  margin: 0;
+}
+
+.titulo p {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+section.detalhes-sandalia {
+    display: flex;
+    justify-content: center;
+    margin: 160px 120px 110px;
+}
+
+.detalhes-sandalia h2 {
+  font-weight: 600;
+  font-size: 39px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.coluna-detalhes {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .button {
     background-color: #C2185B;
+    color: #FFFFFF;
+    width: 400px;
+    margin: 20px 0 55px;
+}
+
+.button p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 20px 0;
 }
 
 footer {
@@ -154,7 +213,7 @@ footer {
 footer .geral {
   font-size: 14px;
   width: 255px;
-  padding-top: 20px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
