@@ -30,16 +30,20 @@ header {
     padding-right: 20px;
 }
 
-main {
-    padding-bottom: 110px;
-}
-
 .banner {
     background-image: url(../img/banner.png);
     height: 235px;
 }
 
 /* Aula de Form - Especifico para "trabalhe-conosco.html" */
+
+header.trabalhe-conosco {
+  box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+}
+
+.conteudo-principal {
+  margin: 25px 80px 55px 120px;
+}
 
 .contato {
     display: flex;
@@ -58,7 +62,7 @@ form, article {
 form {
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 60px;
     color: #9b9b9b;
 }
 
@@ -124,6 +128,7 @@ button#submit {
 .detalhes-sandalia {
     display: flex;
     justify-content: center;
+    padding-bottom: 110px;
 }
 
 .detalhes-sandalia > .coluna {
@@ -139,7 +144,226 @@ button#submit {
 
 footer {
     background-color: #C2185B;
+    color: #FFFFFF;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
+
+footer .geral {
+  font-size: 14px;
+  width: 255px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categorias, .institucional {
+  margin: 55px 0;
+}
+
+footer h5 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+/* 
+h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 82px;
+  text-align: center;
+  color: #000000;
+  padding-top: 68px;
+  padding-bottom: 82px;
+}
+
+.featured {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 207px;
+}
+
+.off {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 1280px;
+  height: 662px;
+  left: 0px;
+  top: 1554px;
+  background: #C2185B;
+}
+
+h3 {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 44px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.promo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.promo1 {
+  width: 260px;
+  height: 388px;
+  left: 102px;
+  top: 1729px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+.produto {
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding-top: 18px;
+  padding-left: 11px;
+}
+
+.preco {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding-bottom: 18px;
+  padding-left: 11px;
+}
+
+.detalhes-sandalia {
+      display:flex;
+      flex-direction: row;
+      margin: 163px 105px 125px 127px;
+  }
+
+.coluna {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+
+.sandalia {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+}
+
+.button {
+  width: 403px;
+  height: 99px;
+  left: 127px;
+  top: 2501px;
+  background: #C2185B;
+}
+
+.button p {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 53px;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1280px;
+  height: 248px;
+  left: 0px;
+  top: 3434px;
+  background: #C2185B;
+}
+
+footer .geral p {
+  margin-left: 127px;
+  width: 255px;
+  height: 91px;
+  left: 128px;
+  top: 3553px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+footer .geral img {
+  padding-left: 127px;
+}
+
+h5 {
+  margin: 0;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+.categorias {
+  margin-left: 150px;
+  width: 104px;
+  height: 137px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.institucional {
+  margin-right: 148px;
+  width: 246px;
+  height: 161px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+} */
