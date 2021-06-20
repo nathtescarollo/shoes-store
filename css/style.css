@@ -237,3 +237,12 @@ footer a {
 footer p {
   margin: 0;
 }
+
+.geral {
+  position: relative;
+}
+
+.geral p {
+  position: absolute;
+  top: 120px;
+}
