@@ -6,8 +6,8 @@ Protótipos do Figma utilizados como referência para a criação das seguintes 
 
 * Home (index.html): 
 
-https://www.figma.com/file/1RMI1C7jHcXyICYuEnbljP/Shoes-Store-(Copy)?node-id=0%3A1
+https://www.figma.com/file/1RMI1C7jHcXyICYuEnbljP/Shoes-Store?node-id=0%3A1
 
 * Trabalhe Conosco (trabalhe-conosco.html): 
 
-https://www.figma.com/file/1RMI1C7jHcXyICYuEnbljP/Shoes-Store-(Copy)?node-id=611%3A0
+https://www.figma.com/file/1RMI1C7jHcXyICYuEnbljP/Shoes-Store?node-id=611%3A0
