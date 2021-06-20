@@ -11,3 +11,7 @@ https://www.figma.com/file/1RMI1C7jHcXyICYuEnbljP/Shoes-Store?node-id=0%3A1
 * Trabalhe Conosco (trabalhe-conosco.html): 
 
 https://www.figma.com/file/1RMI1C7jHcXyICYuEnbljP/Shoes-Store?node-id=611%3A0
+
+## Hospedagem
+
+GitHub Pages: https://nathtescarollo.github.io/shoes-store/index.html
